@@ -109,3 +109,8 @@ Contributions are what make the open-source community an incredible place to lea
 4. Push to the branch: `git push origin feature/feature-name`.
 5. Open a pull request.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+The MIT License is a permissive open-source license that allows you to freely use, modify, distribute, and sublicense the code with minimal restrictions. It comes with a disclaimer and without warranties.
