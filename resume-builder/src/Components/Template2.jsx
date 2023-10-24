@@ -14,7 +14,7 @@ const Template2 = ({ data }) => {
 
   const containerStyle = {
  
-    padding: '20px',
+    
   
   
   };

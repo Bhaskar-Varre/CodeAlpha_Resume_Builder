@@ -4,9 +4,9 @@
     align-items: center;
     justify-content: center;
     height: 90vh;
-    background-image: url('bg.jpg'); /* Specify the path to your background image */
-    background-size: cover; /* Cover the entire container */
-    background-position: center; /* Center the background image */
+    background-image: url('bg.jpg'); 
+    background-size: cover; 
+    background-position: center; 
     text-align: center;
     padding: 20px; /* Add some padding to the entire container */
     margin-bottom: 20px; 
