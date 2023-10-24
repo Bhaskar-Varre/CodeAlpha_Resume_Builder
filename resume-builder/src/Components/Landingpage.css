@@ -1,0 +1,80 @@
+.landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-image: url('bg.jpg'); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    text-align: center;
+    padding: 20px; /* Add some padding to the entire container */
+    margin-bottom: 20px; 
+  
+  }
+  
+    
+    .landing h1 {
+      font-size: 2rem;
+      color: #595654;
+    }
+    .landing h3 {
+      color: #666;
+  
+  
+    }
+    .landing p {
+      font-size: 1.2rem;
+      color: #666;
+      margin: 10px 0;
+    }
+    
+    .btn-container {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .btn-container button {
+      background-color: #ff8c00;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1.2rem;
+  
+      box-shadow: -6px 8px 11px 0px rgb(134 85 24);
+      transition: background-color 0.3s, transform 0.2s;
+    }
+    
+    .btn-container button:hover {
+      background-color: #aaa196;
+      transform: scale(1.05);
+    }
+    
+    .contact-details {
+      display: flex;
+      justify-content: space-evenly;
+      text-align: start;
+      align-items: center;
+      position: fixed;
+      bottom: -15px;
+      width: 100%; /* Make it span the entire width of the page */
+      background-color: #4b4440; /* Background color for the fixed section */
+      color: #fff; /* Text color for the fixed section */
+      padding: 1px; /* Add some padding to the fixed section */
+    }
+  
+    .contact-details p {
+      font-size: 1rem;
+      color: #ffffff;
+      margin: 5px 0;
+    }
+    .contact-details a{
+      text-decoration: none;
+      color: #f4f4f4;
+    }
+    .content {
+      text-align: center;
+      flex: 1; /* Allow content to grow and take available space */
+    }

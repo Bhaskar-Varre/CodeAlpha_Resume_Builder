@@ -1,0 +1,25 @@
+.pi {
+    padding: 57px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .pi.label {
+    font-weight: bold;
+  }
+  
+  .pi input{
+    padding:9px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .fa-user,
+  .fa-envelope,
+  .fa-phone {
+    margin-right: 1px;
+  }
+  

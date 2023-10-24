@@ -1,0 +1,43 @@
+.education {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .education label {
+    font-weight: bold;
+  }
+  
+  .education input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="button"] {
+    background-color: #8e8889;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button[type="button"]:hover {
+    background-color:  #ff6b6b;
+  }
+  button[type="button1"] {
+    background-color: #70594c;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  button[type="button1"]:hover {
+    background-color: #96918f;
+  }
+  

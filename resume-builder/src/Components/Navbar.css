@@ -1,0 +1,20 @@
+/* Navbar.css */
+.navbar {
+    background-color: #4b4440; /* Background color for the navbar */
+    padding: 1px 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .home-button {
+    background: none;
+    border: none;
+    color: #fff; /* Color for the home symbol */
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .home-button:focus {
+    outline: none;
+  }
+  

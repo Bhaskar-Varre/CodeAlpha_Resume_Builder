@@ -1,0 +1,70 @@
+/* Styles for the ResumePreview component */
+.rpl{
+    display: grid;
+    justify-content: center;
+    border: 1px solid #b05454;
+      border-radius: 20px;
+      box-shadow: inset -4px 5px 17px 3px rgb(118 74 49);
+  
+  }
+  .resume-preview-container {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 20px;
+      width: 210mm;
+      border-radius: 13px;
+    }
+    
+    .select-container {
+      flex: 1;
+      padding: 20px;
+      border-right: 1px solid #ccc;
+    }
+    
+    .content-container {
+      align-self: center;
+      flex: 3;
+      padding: 20px;
+    }
+    
+    .select-container label {
+      font-size: 18px;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    .select-container select {
+      text-align: center;
+      width: 25%;
+      padding: 14px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 17px;
+    }
+    
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    
+    .generate-button,
+    .edit-button {
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color:#745848;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .generate-button:hover,
+    .edit-button:hover {
+      background-color:#d2af9c;
+    }
+    
